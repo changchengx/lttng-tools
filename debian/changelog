@@ -1,0 +1,476 @@
+ltt-control (2.11.2-1) unstable; urgency=medium
+
+  * [3ba9f39] New upstream version 2.11.2
+  * [89eadcc] Drop patch merged upstream
+
+ -- Michael Jeanson <mjeanson@debian.org>  Thu, 13 Feb 2020 11:20:20 -0500
+
+ltt-control (2.11.1-2) unstable; urgency=medium
+
+  * [3aeb42e] Fix session rotation with kernel domain (Closes: #951206)
+
+ -- Michael Jeanson <mjeanson@debian.org>  Wed, 12 Feb 2020 10:58:54 -0500
+
+ltt-control (2.11.1-1) unstable; urgency=medium
+
+  * [47b26b1] New upstream version 2.11.1
+  * [2753be7] Drop patches merged upstream
+  * [1c19acb] Revert to dh 10 as recommended by the dh maintainer
+  * [95b46c1] Add upstream metadata file
+  * [2c6b8f9] d/copyright: Renamed ust-ctl.h to ust-ctl-internal.h
+
+ -- Michael Jeanson <mjeanson@debian.org>  Thu, 06 Feb 2020 16:50:54 -0500
+
+ltt-control (2.11.0-4) unstable; urgency=medium
+
+  * [341510b] Add asciidoc and xmlto to builddeps (Closes: #948253)
+  * [a508e98] d/control: Set Rules-Requires-Root to no
+  * [fe600d9] Add patch to fix lttng-health-check manpage
+
+ -- Michael Jeanson <mjeanson@debian.org>  Mon, 06 Jan 2020 15:22:28 -0500
+
+ltt-control (2.11.0-3) unstable; urgency=medium
+
+  * [e8b29e1] Add build dependency on dh-python (Closes: #944938)
+
+ -- Michael Jeanson <mjeanson@debian.org>  Mon, 18 Nov 2019 15:58:58 -0500
+
+ltt-control (2.11.0-2) unstable; urgency=medium
+
+  * [8514592] Add patch to fix build on x32
+
+ -- Michael Jeanson <mjeanson@debian.org>  Tue, 29 Oct 2019 11:41:06 -0400
+
+ltt-control (2.11.0-1) unstable; urgency=medium
+
+  * [d85f2bc] New upstream version 2.11.0
+  * [285ec12] Bump build dependencies for 2.11.0
+  * [250a4bc] Bump debhelper to 11
+  * [d6d36b4] Bump standards version to 4.4.1
+  * [7a56691] Drop patch applied upstream
+  * [b118011] Update symbols for 2.11.0
+  * [b7b26d1] Add patch to fix typo 'Attemp'
+  * [8a79213] Add patch to fix typo 'occured'
+  * [37930b0] Update debian/copyright
+
+ -- Michael Jeanson <mjeanson@debian.org>  Mon, 21 Oct 2019 15:02:13 -0400
+
+ltt-control (2.10.8-1) unstable; urgency=medium
+
+  * [546c25c] New upstream version 2.10.8
+  * [a92da25] d/copyright: Remove file bitfield.h
+  * [7d357ab] Bump standards version to 4.4.0
+
+ -- Michael Jeanson <mjeanson@debian.org>  Wed, 02 Oct 2019 14:28:41 -0400
+
+ltt-control (2.10.7-1) unstable; urgency=medium
+
+  * [486b665] Add Salsa CI configuration
+  * [8247b91] Disable Salsa CI blhc test
+  * [d6f5d90] New upstream version 2.10.7
+  * [526da96] Add patch to fix typo
+  * [cd1d9e7] Move dpkg-maintscript-helper to maintscript file
+
+ -- Michael Jeanson <mjeanson@debian.org>  Wed, 24 Jul 2019 15:57:48 -0400
+
+ltt-control (2.10.6-1) unstable; urgency=medium
+
+  * [cb28f0c] New upstream version 2.10.6
+  * [c90a38e] Bump debhelper compat to 10
+  * [ad0f696] Remove signatures from upstream key
+  * [5119696] Add Build-Depends-Package to symbols file
+  * [090514b] Bump standards version to 4.3.0
+
+ -- Michael Jeanson <mjeanson@debian.org>  Fri, 25 Jan 2019 14:55:27 -0500
+
+ltt-control (2.10.5-2) unstable; urgency=medium
+
+  * [ab61509] Symbols fix on riscv64
+  * [eb04626] Bump standard to 4.2.0, no changes necessary
+
+ -- Michael Jeanson <mjeanson@debian.org>  Tue, 21 Aug 2018 15:43:46 -0400
+
+ltt-control (2.10.5-1) unstable; urgency=medium
+
+  * [d413c5a] New upstream version 2.10.5
+  * [73bbc13] Update renamed file in debian/copyright
+  * [71a61f0] Drop x-python3-version
+  * [d29169f] Bump standard to 4.1.5, no changes necessary
+
+ -- Michael Jeanson <mjeanson@debian.org>  Tue, 24 Jul 2018 13:49:04 -0400
+
+ltt-control (2.10.4-1) unstable; urgency=medium
+
+  * [4d4f049] New upstream version 2.10.4
+  * [d8b6008] Use salsa canonical uri in VCS-Browser
+  * [6ef519b] Bump standard to 4.1.4, no changes necessary
+
+ -- Michael Jeanson <mjeanson@debian.org>  Mon, 30 Apr 2018 16:14:58 -0400
+
+ltt-control (2.10.3-1) unstable; urgency=medium
+
+  * [685fb83] New upstream version 2.10.3
+
+ -- Michael Jeanson <mjeanson@debian.org>  Mon, 26 Mar 2018 17:40:15 -0400
+
+ltt-control (2.10.2-1) unstable; urgency=medium
+
+  * [a2a1f7b] Switched my uploader email to @debian.org
+  * [0936e3d] Moved VCS to salsa.debian.org
+  * [ee2d9c2] Use https in homepage url
+  * [e284efc] New upstream version 2.10.2
+  * [110d5e6] Bump standards version to 4.1.3
+
+ -- Michael Jeanson <mjeanson@debian.org>  Mon, 12 Feb 2018 12:27:41 -0500
+
+ltt-control (2.10.1-2) unstable; urgency=medium
+
+  * [2ad2163] Symbols fix on m68k
+  * [3e5278e] Changed deprecated extra priority to optional
+  * [8d812b3] Set python section for python3-lttng
+  * [dd9c840] Remove builddep on obsolete dh-systemd
+  * [ca53e85] Bump standards version to 4.1.1
+  * [c13da29] Add lintian override for upstart config
+  * [3156765] Use https url in watch file
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Wed, 18 Oct 2017 16:34:10 -0400
+
+ltt-control (2.10.1-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [a77574d] Move to DEP-14 branch naming
+  * [c29550e] Rename source package to lttng-tools
+  * [9f76201] New upstream version 2.10.0
+  * [d4cd4d8] Bump dependency on ust for 2.10.0
+  * [2a1d403] Remove TODO from docs
+  * [fad7c82] Update symbols for 2.10.0
+  * [2bcf185] Add strict version dependency to python3-lttng
+  * [24e8bc2] Fix init systems configuration
+  * [7e5d2f3] Fix man page rebuild
+  * [09ac7d1] Revert source package rename
+  * [4d20b47] New upstream version 2.10.1
+
+ -- Jon Bernard <jbernard@debian.org>  Thu, 14 Sep 2017 13:13:43 -0400
+
+ltt-control (2.9.5-1) unstable; urgency=medium
+
+  * [adcb145] New upstream version 2.9.5
+  * [a0f0f09] Bump standards version to 4.0.0, no changes necessary
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Fri, 30 Jun 2017 16:04:51 -0400
+
+ltt-control (2.9.4-1) unstable; urgency=medium
+
+  * [b89f912] New upstream version 2.9.4
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Tue, 21 Feb 2017 17:31:44 -0500
+
+ltt-control (2.9.3-1) unstable; urgency=medium
+
+  * [f261ca8] New upstream version 2.9.3
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Mon, 09 Jan 2017 17:06:03 -0500
+
+ltt-control (2.9.1-1) unstable; urgency=medium
+
+  * [65fa69b] New upstream version 2.9.1
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Fri, 06 Jan 2017 17:19:03 -0500
+
+ltt-control (2.9.0-1) unstable; urgency=medium
+
+  * [dc16595] New upstream version 2.9.0
+  * [a1e773f] Bump dependency on ust for 2.9.0
+  * [9360174] Remove asciidoc and xmlto from builddeps
+  * [594168f] Update symbols for 2.9.0
+  * [ed8cd83] Updated copyright file
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Wed, 30 Nov 2016 15:52:15 -0500
+
+ltt-control (2.8.2-2) unstable; urgency=medium
+
+  * [2c14e0e] Remove old bash_completion file on upgrade (Closes: #841088)
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Mon, 24 Oct 2016 14:23:55 -0400
+
+ltt-control (2.8.2-1) unstable; urgency=medium
+
+  * [df05929] Add pgpsigurlmangle to watch file
+  * [3f76a5c] Do not consider rc versions in watch file
+  * [b69a1e3] New upstream version 2.8.2
+  * [bdbaeb6] Add asciidoc and xmlto to builddeps
+  * [94e9d19] Added dep on lsb-base for initscript
+  * [74e3528] Added Install section to unit file
+  * [e09aca7] Updated doc url in unit file
+  * [55191bd] Add Michael Jeanson as uploader
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Tue, 11 Oct 2016 16:26:47 -0400
+
+ltt-control (2.8.1-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [df6f604] python subpackage should also build on linux-any
+  * [75e1e69] Fix watch file
+
+  [ Jon Bernard ]
+  * [90d2c59] Imported Upstream version 2.8.1
+
+ -- Jon Bernard <jbernard@debian.org>  Wed, 06 Jul 2016 04:18:41 +0000
+
+ltt-control (2.8.0-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [c4b4b89] New upstream version 2.8.0
+  * [7cb24ab] Bump dependency on ust for 2.8.0
+  * [8d20b7a] Bump standards version to 3.9.8, no changes necessary
+  * [deb1e1c] Update symbols for 2.8.0
+  * [ae9257a] Add build dependencies on libkmod-dev and uuid-dev
+  * [ef265b7] Add session.xsd to liblttng-ctl0
+
+ -- Jon Bernard <jbernard@debian.org>  Tue, 24 May 2016 21:48:57 -0400
+
+ltt-control (2.7.2-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [07d1a45] New upstream version 2.7.2
+  * [34bebd4] Update debian/copyright and add missing licences
+  * [fc94db2] Bump standards version to 3.9.7, no changes necessary
+  * [7374b85] Add unit section to lttng-sessiond service file
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 22 Apr 2016 13:48:05 +0000
+
+ltt-control (2.7.1-2) unstable; urgency=medium
+
+  * [cfcd9af] Update vcs fields to use secure uri
+  * [bcad950] Update copyright to match current source tree
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 01 Feb 2016 21:40:39 -0500
+
+ltt-control (2.7.1-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [77e4030] New upstream version 2.7.1
+  * [949306e] Add pkg-config to builddeps
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 11 Jan 2016 13:43:27 +0000
+
+ltt-control (2.7.0-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [5ed30e9] New upstream version 2.7.0
+  * [6c8a907] Remove old transitionnal packages
+  * [f931523] Build on linux-any architectures (Closes: #772093)
+  * [067a1a1] Build depend specifically on liblttng-ust-dev 2.7
+  * [b759e83] Update symbols file
+  * [dfb3919] Fix copyright file syntax
+  * [e507ede] Added systemd service file for lttng-sessiond
+  * [f95e6c0] Add python bindings subpackage
+
+  [ Jon Bernard ]
+  * [c89985d] Correct capitalization error in python3-lttng synopsis
+  * [abbc327] Update copyright information
+
+ -- Jon Bernard <jbernard@debian.org>  Thu, 12 Nov 2015 22:46:50 +0000
+
+ltt-control (2.6.0-1ppc64el1) unstable; urgency=medium
+
+  * [2adaaf1] debian/control: add ppc64el architecture.
+    Thanks to Fernando Seiti Furusato (Closes: #790682)
+
+ -- Jon Bernard <jbernard@debian.org>  Wed, 22 Jul 2015 18:57:12 +0000
+
+ltt-control (2.6.0-1) unstable; urgency=medium
+
+  [ Michael Jeanson ]
+  * [a00e8a5] New upstream version 2.6.0
+  * [fbc62ca] debian/lttng-tools.docs: Renamed README to README.md
+  * [9bf5726] debian/liblttng-ctl0.symbols: Update symbols
+  * [04b614a] debian/lttng-tools.postinst: Clean script output to stdout
+  * [280584f] debian/control: Update build dependency for 2.6.0
+
+  [ Jon Bernard ]
+  * [2354b9d] Use dh_bash-completion to handle completion scripts
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 05 Jun 2015 14:45:57 +0000
+
+ltt-control (2.5.2-1) unstable; urgency=medium
+
+  * [8304e3f] New upstream version 2.5.2
+
+ -- Jon Bernard <jbernard@debian.org>  Wed, 03 Dec 2014 01:32:33 +0000
+
+ltt-control (2.5.1-1) unstable; urgency=medium
+
+  * [8385f65] New upstream version 2.5.1
+  * [a31315f] Bump standards version, no changes necessary
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 24 Oct 2014 15:15:45 +0000
+
+ltt-control (2.5.0-1) unstable; urgency=medium
+
+  * [df7a0f4] New upstream version 2.5.0
+  * [51e2531] Include bison as a build dependency
+  * [5c140a9] Prevent masking of compiler arguments during build
+  * [4f34fda] Add libxml2-dev as a build dependency
+  * [7981aee] Update liblttng-ctl0.symbols for 2.5.0
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 04 Aug 2014 13:13:33 -0400
+
+ltt-control (2.4.1-1) unstable; urgency=low
+
+  [ Michael Jeanson ]
+  * [57baa87] Use canonical VCS urls in control file
+  * [babcde6] Add symbols file for liblttng-ctl0
+  * [f9f33f5] Imported Upstream version 2.4.1
+  * [1fff18b] Stripped debian revision from symbols file
+
+ -- Jon Bernard <jbernard@debian.org>  Wed, 09 Apr 2014 13:07:11 -0400
+
+ltt-control (2.4.0-2) unstable; urgency=low
+
+  * [74b3a25] Bump dependency on liburcu to version 0.8.4
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 17 Mar 2014 16:17:47 -0400
+
+ltt-control (2.4.0-1) unstable; urgency=low
+
+  * [e1e3941] New upstream version 2.4.0
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 14 Mar 2014 18:56:36 -0400
+
+ltt-control (2.4.0~rc4-1) experimental; urgency=low
+
+  * [5accadb] Update UST version dependency
+  * [67eb5bb] Update watch file to only uversionmangle
+  * [055f855] New upstream version 2.4.0~rc4
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 14 Feb 2014 17:29:29 -0500
+
+ltt-control (2.3.0-2) unstable; urgency=low
+
+  * [31b9b12] Fix build failure on armel
+  * [635f0c3] Bump version dependency on ust
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 22 Nov 2013 12:57:18 -0500
+
+ltt-control (2.3.0-1) unstable; urgency=low
+
+  * [c75fa17] New upstream version 2.3.0 (Closes: #728644)
+  * [f5d8090] Bump standards version, no changes necessary
+  * [660a665] Make lttng-modules-dkms a suggestion instead of requirement
+    (Closes: #714385)
+  * [b6a3c4a] Update build dependency on ust
+  * [87626e5] Restrict architectures to match that of ust
+  * [fec17a8] Remove debian patch, include upstream
+
+ -- Jon Bernard <jbernard@debian.org>  Sun, 03 Nov 2013 15:18:56 -0500
+
+ltt-control (2.1.1-2) unstable; urgency=low
+
+  * [08f3c8b] Use dh-autoreconf to call autoreconf before building.
+    Thanks to Roland Stigge (Closes: #701976)
+
+ -- Jon Bernard <jbernard@debian.org>  Tue, 02 Apr 2013 16:03:39 -0400
+
+ltt-control (2.1.1-1) unstable; urgency=low
+
+  * [228144f] New upstream version 2.1.1
+  * [a9f14a2] Refresh test utilities link patch
+  * [49f2b94] Set build dependency on proper version of ust.
+    Thanks to Glenn McGrath (Closes: #701779)
+  * [7f80999] Remove AUTHORS and NEWS from docs, no longer shipped
+
+ -- Jon Bernard <jbernard@debian.org>  Thu, 28 Feb 2013 18:34:16 -0500
+
+ltt-control (2.1.0~rc9-1) unstable; urgency=low
+
+  * [f95cb9a] New upstream version 2.1.0~rc9
+
+ -- Jon Bernard <jbernard@debian.org>  Tue, 04 Dec 2012 09:26:22 -0500
+
+ltt-control (2.1.0~rc8-1) unstable; urgency=low
+
+  * [72662ab] New upstream version 2.1.0~rc8
+  * [ae2ad38] Link test utilities against urcu-bp
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 03 Dec 2012 13:06:07 -0500
+
+ltt-control (2.1.0~rc6-1) unstable; urgency=low
+
+  * [4908348] New upstream version 2.1.0~rc6
+
+ -- Jon Bernard <jbernard@debian.org>  Sat, 03 Nov 2012 10:20:14 -0400
+
+ltt-control (2.1.0~rc5-1) unstable; urgency=low
+
+  * [44313ad] New upstream version 2.1.0~rc5
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 22 Oct 2012 21:41:55 -0400
+
+ltt-control (2.1.0~rc4-2) unstable; urgency=low
+
+  * [538a285] Override dh_makeshlibs to tighten symbol dependencies
+  * [e8e84aa] Depend on a more recent version of liburcu1 (Closes: #688779)
+
+ -- Jon Bernard <jbernard@debian.org>  Sat, 29 Sep 2012 11:30:56 -0400
+
+ltt-control (2.1.0~rc4-1) unstable; urgency=low
+
+  * [12b22ae] New upstream version 2.1.0~rc4
+
+ -- Jon Bernard <jbernard@debian.org>  Thu, 27 Sep 2012 09:39:03 -0400
+
+ltt-control (2.1.0~rc3-2) unstable; urgency=low
+
+  * [fbda274] Fix broken lttng-sessiond initscript (Closes: #688730)
+
+ -- Jon Bernard <jbernard@debian.org>  Tue, 25 Sep 2012 14:25:15 -0400
+
+ltt-control (2.1.0~rc3-1) unstable; urgency=low
+
+  * [b38aa00] New upstream version 2.1.0~rc3
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 14 Sep 2012 08:55:10 -0400
+
+ltt-control (2.1.0~rc2-1) unstable; urgency=low
+
+  * [f99ee50] Synchronize with upstream's packaging effort
+  * [9ca37c7] Update watchfile to handle upstream RC releases
+  * [bd91604] New upstream version 2.1.0~rc2
+  * [8dc90ea] Disable compile time tests
+
+ -- Jon Bernard <jbernard@debian.org>  Tue, 11 Sep 2012 17:18:55 -0400
+
+ltt-control (0.89-05122011-1) unstable; urgency=low
+
+  * [35237d1] New upstream version 0.89-05122011
+  * [14b682b] Bump standards version to 3.9.2, no changes necessary
+  * [c569a54] Remove article from start of description synopses
+
+ -- Jon Bernard <jbernard@debian.org>  Sun, 19 Jun 2011 09:29:46 -0400
+
+ltt-control (0.88-09242010-2) unstable; urgency=low
+
+  * [39296c6] Update watchfile url
+  * [9962282] Remove unneeded .la files (Closes: #622462)
+
+ -- Jon Bernard <jbernard@debian.org>  Sat, 04 Jun 2011 16:10:46 -0400
+
+ltt-control (0.88-09242010-1) unstable; urgency=low
+
+  * [cff0f9] Imported Upstream version 0.88-09242010
+  * [ab4374] Bump standards version to 3.9.1, no changes necessary
+
+ -- Jon Bernard <jbernard@debian.org>  Sun, 26 Sep 2010 21:48:13 -0400
+
+ltt-control (0.87-09062010-1) unstable; urgency=low
+
+  * [caaaca] Imported Upstream version 0.87-09062010
+
+ -- Jon Bernard <jbernard@debian.org>  Fri, 11 Jun 2010 09:35:25 -0400
+
+ltt-control (0.86-19052010-1) unstable; urgency=low
+
+  * Initial release (Closes: #570042)
+
+ -- Jon Bernard <jbernard@debian.org>  Thu, 20 May 2010 19:20:24 -0400
