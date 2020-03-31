@@ -1,4 +1,4 @@
-Source: ltt-control
+Source: lttng-tools
 Section: libs
 Priority: optional
 Maintainer: Jon Bernard <jbernard@debian.org>

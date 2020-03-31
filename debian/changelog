@@ -1,3 +1,9 @@
+lttng-tools (2.11.2-1ubuntu1) unstable; urgency=medium
+
+  * rename build source head to be lttng-tools
+
+ -- Changcheng Liu <changcheng.liu@aliyun.com>  Tue, 31 Mar 2020 23:18:37 +0800
+
 ltt-control (2.11.2-1) unstable; urgency=medium
 
   * [3ba9f39] New upstream version 2.11.2
